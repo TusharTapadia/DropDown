@@ -697,7 +697,7 @@ extension DropDown {
 		constraintWidthToFittingSizeIfNecessary(layout: &layout)
 		constraintWidthToBoundsIfNecessary(layout: &layout, in: window)
 		
-		let visibleHeight = tableHeight - layout.offscreenHeight
+		let visibleHeight = tableHeight - layout.offscreenHeight - 80
 		let canBeDisplayed = visibleHeight >= minHeight
 
 		return (layout.x, layout.y, layout.width, layout.offscreenHeight, visibleHeight, canBeDisplayed, direction)

@@ -1064,7 +1064,7 @@ extension DropDown: UITableViewDataSource, UITableViewDelegate {
 		
 		cell.optionLabel.textColor = textColor
 		cell.optionLabel.font = textFont
-		cell.selectedBackgroundColor = selectionBackgroundColor
+// 		cell.selectedBackgroundColor = selectionBackgroundColor
         cell.highlightTextColor = selectedTextColor
         cell.normalTextColor = textColor
 		cell.optionLabel.textAlignment = .center
